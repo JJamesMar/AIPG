@@ -1,2 +1,12 @@
+/* line 1, ../Coding Projects/AIPG/scss/styles.scss */
+.header {
+  margin-top: 15px;
+  width: 100%;
+  color: #722828;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
 
 /*# sourceMappingURL=styles.css.map */

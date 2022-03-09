@@ -5,8 +5,8 @@
 		"../scss/styles.scss"
 	],
 	"sourcesContent": [
-		""
+		".header {\r\n    margin-top: 15px;\r\n    width: 100%;\r\n    color: rgb(114, 40, 40);\r\n    border: none;\r\n    padding: 10px 0;\r\n    text-transform: uppercase;\r\n    border-radius: 5px;\r\n  }"
 	],
 	"names": [],
-	"mappings": ""
+	"mappings": ";AAAA,AAAA,OAAO,CAAC;EACJ,UAAU,EAAE,IAAI;EAChB,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,OAAgB;EACvB,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,MAAM;EACf,cAAc,EAAE,SAAS;EACzB,aAAa,EAAE,GAAG;CACnB"
 }
