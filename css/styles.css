@@ -1,0 +1,21 @@
+/* ===================================== 
+   Base Styles
+======================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+/* ===================================== 
+   Grid Layout
+======================================== */
+
+.grid {
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-gap: 15px;
+    margin: 45px auto;
+    background-color: orange;
+}
