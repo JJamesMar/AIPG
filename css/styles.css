@@ -1,9 +1,26 @@
 /* ===================================== 
-   Base Styles
+   Universial Styles
 ======================================== */
 
 * {
 	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ===================================== 
+   Base Styles
+======================================== */
+
+form {
+    text-align: center;
+}
+
+div {
+    margin: 0 auto;
 }
 
 /* ===================================== 
@@ -11,15 +28,14 @@
 ======================================== */
 
 .grid {
-    max-width: 900px;
+    max-width: 1000px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-auto-rows: 1fr;
-    grid-gap: 20px;
-    margin: 45px auto;
-    background-color: orange;
+    grid-column-gap: 1px;
+    grid-row-gap: 20px;
+    margin: 60px auto;
+    
 }
 
-div {
-    background-color: blue;
-}
+
